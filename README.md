@@ -26,7 +26,7 @@ To execute Task2:
 
 ## Task 3: 
  Implemented a deeper NLP pipeline to perform the following:
-* Semantic search index creation
+* Semantic search index creation uing solr.
 * Segment the News articles into sentences
 * Tokenize the sentences into words
 * Lemmatize the words to extract lemmas as features
@@ -34,10 +34,10 @@ To execute Task2:
 * Part-of-speech (POS) tag the words to extract POS tag features
 * Syntactically parse the sentence and extract phrases, head words, and dependency parse relations as features
 * Using WordNet, extract hypernymns, hyponyms, meronyms, and holonyms as features
-* Index the various NLP features as separate search fields in a search index such as Lucene or SOLR
-* Natural language query parsing and search
-* Run the above described deeper NLP on an user?s input natural language and extract search query features
-* Run a search/match against the separate or combination of search index fields created from the corpus
+* Index the various NLP features as separate search fields in a search index such as Lucene or SOLR.
+#### Natural language query parsing and search
+* Run the above described deeper NLP on an users input natural language and extract search query features.
+* Run a search/match against the separate or combination of search index fields created from the corpus.
 To execute Task3:
 - I used StandfordCoreNLP for extracting the phrases.
 - Modify local_corenlp_path to server_corenlp_path to use online version apis maxent tagger vs averaged tagger.
