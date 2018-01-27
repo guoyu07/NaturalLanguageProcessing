@@ -5,7 +5,7 @@ The project goal is to develop a semantic search application based on Apache Sol
 
 I divided the project in to four tasks.
 ## Task 1:
-I choosed the brown text corpus which contains more than 1,000 articles and 100,000 words.Please Check task1.py for the code.
+I choosed the brown text corpus which contains more than 1,000 articles and 100,000 words.Please Check src/task1.py for the code.
 Brown corpus is from :http://www.sls.hawaii.edu/bley-vroman/brown.txt
 
 ## Task 2: 
@@ -22,7 +22,6 @@ To execute Task2:
 - Extract solr binaries.In Navigate to solr-7.1.0 folder in terminal and run  bin/solr start -p 
 - create a core using bin/solr create -c 
 - open solr admin on any browser http://localhost:8983/solr/#/.
-- run taks2.py
 
 ## Task 3: 
  Implemented a deeper NLP pipeline to perform the following:
@@ -38,6 +37,7 @@ To execute Task2:
 #### Natural language query parsing and search
 * Run the above described deeper NLP on an users input natural language and extract search query features.
 * Run a search/match against the separate or combination of search index fields created from the corpus.
+
 To execute Task3:
 - I used StandfordCoreNLP for extracting the phrases.
 - Modify local_corenlp_path to server_corenlp_path to use online version apis maxent tagger vs averaged tagger.
