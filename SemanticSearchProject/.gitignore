@@ -1,0 +1,15 @@
+# Compiled class file
+*.pyc
+
+
+
+*/.DS_Store
+.idea/
+
+# support files
+*.json
+
+# helper files
+ProjectGroupInfo-ADVANCEDBAYES.pdf
+instructions.txt
+src/test.py
